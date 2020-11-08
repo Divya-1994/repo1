@@ -1,0 +1,1 @@
+The "input" folder contains method definition of generating random numbers and removing its duplicates. It has header file which I have included in each program where this random number input is required. Please make sure that input.cpp and input.h belong to same folder that contains the source file.
