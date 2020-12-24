@@ -1,0 +1,10 @@
+to rum mysql 8 with port mapping 
+
+sudo docker run -p 3308:3306 --name mysql2 -e MYSQL_ROOT_PASSWORD=Mysql@10 -d mysql:8 mysqld --default-authentication-plugin=mysql_native_password
+
+execute mysql
+
+sudo docker exec -it mysql1 mysql -uroot -p
+
+
+
