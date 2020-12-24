@@ -10,7 +10,7 @@ vector<int> generateRandomNumbers(int n) {
     vector<int> randomList;
     srand(time(0));
     for (int i = 0; i < n; i++)
-        randomList.push_back(lrand48());
+        randomList.push_back(rand());
     return randomList;
 }
 
